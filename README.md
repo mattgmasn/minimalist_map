@@ -4,7 +4,7 @@ This repository contains the R code to create a minimalist style map of Liverpoo
 
 The R code for creating this map can be found [here](https://github.com/mattgmasn/minimalist_map/blob/main/minimalist_map_liverpool.png).
 
-A png file of the map can be found [here](https://github.com/mattgmasn/minimalist_map/blob/main/minimalist_map_code.R) and also below.
+A png file of the map can be found [here](https://github.com/mattgmasn/minimalist_map/blob/main/minimalist_map_code.R) and it is also shown below.
 
 <p align="center">
   <img width="694" height="840" src="minimalist_map_liverpool.png">
