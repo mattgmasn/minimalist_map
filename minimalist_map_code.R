@@ -94,8 +94,8 @@ minimalist_map
 ggsave(
   "minimalist_map_liverpool.png",
   plot = minimalist_map,
-  width = 297,
-  height = 420,
+  width = 300,
+  height = 300,
   units = "mm",
   dpi = "retina"
 )
