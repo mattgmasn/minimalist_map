@@ -7,5 +7,5 @@ The R code for creating this map can be found [here](https://github.com/mattgmas
 A png file of the map can be found [here](https://github.com/mattgmasn/minimalist_map/blob/main/minimalist_map_code.R) and it is also shown below.
 
 <p align="center">
-  <img width="694" height="840" src="minimalist_map_liverpool.png">
+  <img width="600" height="600" src="minimalist_map_liverpool.png">
 </p>
