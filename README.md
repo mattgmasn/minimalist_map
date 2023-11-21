@@ -6,4 +6,6 @@ The R code for creating this map can be found [here](https://github.com/mattgmas
 
 A png file of the map can be found [here](https://github.com/mattgmasn/minimalist_map/blob/main/minimalist_map_code.R) and also below.
 
-![minimalist_map_liverpool](https://github.com/mattgmasn/minimalist_map/assets/151625541/0da294ce-7695-46c5-90b8-bc1cb07d6460)
+<p align="center">
+  <img width="694" height="840" src="minimalist_map_liverpool.png">
+</p>
