@@ -53,16 +53,6 @@ circle <- tibble(lat = centre["lat"], long = centre["long"]) %>%
 # Crop the streets to the circle
 streets_cropped <- streets %>% st_intersection(circle)
 
-#### Define Point Locations to Add to the Map ####
-
-# Get point locations to add to map (again, I started from a postcode and found the lat and long)
-points <- tibble(lat = 53.40142,
-                 long = -2.96511)
-
-# Create a spatial object for the map
-points_sf <- points %>%
-  st_as_sf(coords = c("long", "lat"), crs = 4326)
-
 #### Create and Save the Map ####
 
 # Create map with OSM attribution
@@ -70,10 +60,6 @@ minimalist_map <- ggplot() +
   geom_sf(data = streets_cropped,
           size = .2,
           color = "grey40") +
-  geom_sf(data = points_sf,
-          aes(col = "red"),
-          alpha = 0.5,
-          size = 5) +
   labs(
     caption = paste0(
       "Map data © OpenStreetMap contributors, ODbL. ",
